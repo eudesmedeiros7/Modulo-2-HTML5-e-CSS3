@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        div {
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover>p{
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div>1</div>
+    <div>2
+        <a href="http://shopee.com.br" target="_blank" rel="next">testando</a>
+        <p>
+            Texto escondido
+        </p>
+    </div>
+    <div>3
+        <a href="https://www.youtube.com" target="_blank">Canal do Youtube</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #F1DCE3, #F8E9F0, #FADEDD, #FFE4E6, #F3EAED, #E2DCDE, #FDF2F6);
+    background-attachment: fixed;
+    /* to bottom, to top, to right, left, ou colocando o grau -45, 45, 180... */
+    /* depois da cor, ainda da pra configurar quantos % cada cor irar ser configurada */
+    /*  background-image: radial-gradient(circle... */
+}

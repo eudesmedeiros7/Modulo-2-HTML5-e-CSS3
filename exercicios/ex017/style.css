@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+/* se quiser usar uma fonte baixada, tem varios formatos, otf, ttf, embedd-opentype, truetype-att, svg */
+/* 
+    @fontface (comando para usar outra fonte que geralmente é baixada){
+        font-family: (aqui vc nomeia para a chamada da fonte) ;
+        src: url('fonte_name.otf ou font_name.ttf') format ( aqui, coloca o tipo do formato da fonte otf...);
+
+
+    }
+*/
+body {
+    /* 
+    Medidas absolutas: cm,mm,in,px,pt,pc
+    Medidas relativas: em, ex, rem, vw, vh,%
+
+    16px = 1em;
+
+     */
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+/* 
+font é uma shorthand para font-family, font-weight, font-size e font-style
+*/
